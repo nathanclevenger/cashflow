@@ -30,7 +30,7 @@ export const Hero = () => {
               lineHeight="1.2"
               letterSpacing="tight"
             >
-              Monetize your API
+              Monetize your APIs
             </Heading>
             <Text fontSize="xl" mt="4" maxW="xl" mx="auto">
               Offer your API-as-a-Service to instantly on-board developers, 
@@ -66,7 +66,7 @@ export const Hero = () => {
                 fontWeight="bold"
                 fontSize="md"
               >
-                Request demo
+                Schedule demo
               </Button>
             </LightMode>
           </Stack>
