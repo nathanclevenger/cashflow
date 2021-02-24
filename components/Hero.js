@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import {
   Box,
   Button,
@@ -46,17 +47,21 @@ export const Hero = () => {
             spacing="4"
           >
             <LightMode>
-              <Button
-                as="a"
-                href="#"
-                size="lg"
-                colorScheme="blue"
-                px="8"
-                fontWeight="bold"
-                fontSize="md"
-              >
-                Get started free
-              </Button>
+              <Link href="/signup">
+                <a>
+                  <Button
+                    as="a"
+                    href="#"
+                    size="lg"
+                    colorScheme="blue"
+                    px="8"
+                    fontWeight="bold"
+                    fontSize="md"
+                  >
+                    Get started free
+                  </Button>
+                </a>
+              </Link>
               <Button
                 as="a"
                 href="#"

@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import { NavbarWithButtons } from '../components/NavbarWithButtons'
 import { Hero } from '../components/Hero'
+import { SignupSteps } from '../components/SignupSteps'
 
 export default function Home() {
   return (
@@ -10,9 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <NavbarWithButtons/>
-
-      <Hero/>
+      <SignupSteps/>
 
       
       
