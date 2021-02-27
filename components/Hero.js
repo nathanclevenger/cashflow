@@ -31,7 +31,7 @@ export const Hero = () => {
               lineHeight="1.2"
               letterSpacing="tight"
             >
-              Manage & Monetize your API Products
+              Manage & Monetize <br/> your API Products
             </Heading>
             <Text fontSize="xl" mt="4" maxW="xl" mx="auto">
               Offer your API-as-a-Service to instantly on-board developers, 
