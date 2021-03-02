@@ -62,21 +62,17 @@ export const Hero = () => {
                   </Button>
                 </a>
               </Link>
-              <Link href="/signup">
-                <a>
-                  <Button
-                    as="a"
-                    href="#"
-                    size="lg"
-                    colorScheme="whiteAlpha"
-                    px="8"
-                    fontWeight="bold"
-                    fontSize="md"
-                  >
-                    Schedule demo
-                  </Button>
-                </a>
-              </Link>
+              <Button
+                as="a"
+                href="/signup"
+                size="lg"
+                colorScheme="whiteAlpha"
+                px="8"
+                fontWeight="bold"
+                fontSize="md"
+              >
+                Schedule demo
+              </Button>
             </LightMode>
           </Stack>
 
