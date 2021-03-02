@@ -47,7 +47,7 @@ export const Hero = () => {
             spacing="4"
           >
             <LightMode>
-              <Link href="/signup">
+              <Link href="https://services.studio">
                 <a>
                   <Button
                     as="a"
@@ -62,17 +62,21 @@ export const Hero = () => {
                   </Button>
                 </a>
               </Link>
-              <Button
-                as="a"
-                href="#"
-                size="lg"
-                colorScheme="whiteAlpha"
-                px="8"
-                fontWeight="bold"
-                fontSize="md"
-              >
-                Schedule demo
-              </Button>
+              <Link href="/signup">
+                <a>
+                  <Button
+                    as="a"
+                    href="#"
+                    size="lg"
+                    colorScheme="whiteAlpha"
+                    px="8"
+                    fontWeight="bold"
+                    fontSize="md"
+                  >
+                    Schedule demo
+                  </Button>
+                </a>
+              </Link>
             </LightMode>
           </Stack>
 
